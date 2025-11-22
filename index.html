@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri ân thầy cô</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background with animated hearts -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <!-- Header section with teacher image -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="main-title">Tri ân thầy cô</h1>
+                <p class="subtitle">Những người đã chắp cánh cho ước mơ của chúng em</p>
+                <div class="teacher-image-container">
+                    <img src="img01.jpg" alt="Các thầy cô giáo" class="teacher-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Gift box section -->
+        <section class="gift-section">
+            <div class="scroll-indicator">
+                <div class="scroll-text">Cuộn xuống để mở quà</div>
+                <div class="scroll-arrow"></div>
+            </div>
+            
+            <div class="gift-container">
+                <div class="gift-box" id="giftBox">
+                    <div class="gift-lid"></div>
+                    <div class="gift-body"></div>
+                    <div class="gift-ribbon"></div>
+                    <div class="gift-bow"></div>
+                    <div class="sparkles">
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                    </div>
+                </div>
+                <p class="gift-instruction">Nhấp vào hộp quà để mở</p>
+            </div>
+        </section>
+
+        <!-- Message modal -->
+        <div class="message-modal" id="messageModal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <div class="message-content">
+                    <h2 class="message-title">Lời tri ân sâu sắc nhất!</h2>
+                    <div class="message-text">
+                        <p>Kính gửi các thầy cô giáo thân yêu,</p>
+                        
+                        <p>Trong suốt hành trình học tập, thầy cô đã là những người đồng hành tận tụy, 
+                        là ngọn hải đăng soi sáng con đường tri thức cho chúng em. Những bài học trên lớp, 
+                        những lời dạy bảo, những kỷ niệm đẹp sẽ mãi là hành trang quý giá theo chúng em suốt cuộc đời.</p>
+                        
+                        <p>Cảm ơn thầy cô đã kiên nhẫn chỉ bảo, đã nâng đỡ khi chúng em vấp ngã, 
+                        đã tin tưởng và truyền cảm hứng để chúng em vững bước trên con đường tương lai. 
+                        Những hy sinh thầm lặng của thầy cô sẽ mãi được ghi sâu trong tim chúng em.</p>
+                        
+                        <p>Nhân dịp đặc biệt này, chúng em xin gửi đến thầy cô lời tri ân chân thành nhất. 
+                        Chúc thầy cô luôn mạnh khỏe, hạnh phúc và tiếp tục mang tri thức đến cho nhiều thế hệ học trò.</p>
+                        
+                        <p class="signature">Học trò của thầy cô</p>
+                    </div>
+                    <div class="heart-decoration">
+                        <div class="floating-heart">❤️</div>
+                        <div class="floating-heart">💕</div>
+                        <div class="floating-heart">💖</div>
+                        <div class="floating-heart">💗</div>
+                        <div class="floating-heart">💝</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
